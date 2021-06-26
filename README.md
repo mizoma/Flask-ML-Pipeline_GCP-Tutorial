@@ -12,7 +12,7 @@ This project demonstrates how a Flask ML app can be deployed on Google Cloud Pla
  - Flask 
 
 ### Project Structure
-All the application files are contained in the folder 'app_files'. The goal is to build an ML model using Decision Tree Classifier
+All the application files are contained in the folder 'app_files'. The goal is to build an ML model using Decision Tree Classifier.
 1. model.py - This contains code fot our Machine Learning model (Decision Tree model) to predict employee salaries absed on trainign data in '50_Startup.csv' file.
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
 3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
